@@ -305,6 +305,11 @@ header .navbar nav a {
   width: 30%;
   margin-bottom: 30px;
 }
+@media (max-width: 500px) {
+  .home .content-pick .destination {
+    width: 100%;
+  }
+}
 .home .content-pick .destination .btn {
   width: 82%;
   color: white;
