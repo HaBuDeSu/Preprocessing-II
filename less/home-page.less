@@ -76,6 +76,10 @@
   .content-destination {
     width: 75%;
     margin: 0 auto 30px;
+    @media @mobile {
+      width: 100%;
+      padding: 0;
+    }
 
     img {
       border-radius: 10px;
@@ -89,6 +93,7 @@
     .top-dashed-border;
     @media @mobile {
       flex-direction: column;
+      padding: 30px 40px 0 40px;
     }
 
     .destination {
@@ -100,6 +105,9 @@
 
       .btn {
         .sign-up-button( #009999, white);
+        @media @mobile {
+          width: 100%;
+        }
       }
     }
   }

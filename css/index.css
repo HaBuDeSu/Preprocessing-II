@@ -297,6 +297,12 @@ header .navbar nav a {
   width: 75%;
   margin: 0 auto 30px;
 }
+@media (max-width: 500px) {
+  .home .content-destination {
+    width: 100%;
+    padding: 0;
+  }
+}
 .home .content-destination img {
   border-radius: 10px;
 }
@@ -309,6 +315,7 @@ header .navbar nav a {
 @media (max-width: 500px) {
   .home .content-pick {
     flex-direction: column;
+    padding: 30px 40px 0 40px;
   }
 }
 .home .content-pick .destination {
@@ -329,4 +336,9 @@ header .navbar nav a {
   padding: 10px 0;
   border-radius: 10px;
   box-shadow: 1px 1px 3px black;
+}
+@media (max-width: 500px) {
+  .home .content-pick .destination .btn {
+    width: 100%;
+  }
 }
