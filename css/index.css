@@ -173,17 +173,34 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 15px;
 }
 header {
   padding: 20px 0;
   border-bottom: 2px dashed #C0C0C0;
 }
+@media (max-width: 500px) {
+  header {
+    padding-bottom: 10px;
+  }
+}
 header .navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 800px;
+  max-width: 800px;
   margin: 0 auto;
+}
+@media (max-width: 500px) {
+  header .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 500px) {
+  header .navbar h1 {
+    margin-bottom: 15px;
+  }
 }
 header .navbar nav {
   display: flex;
