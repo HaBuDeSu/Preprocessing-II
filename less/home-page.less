@@ -1,6 +1,6 @@
 header {
   padding: 20px 0;
-  border-bottom: black dashed 1px;
+  .bottom-dashed-border;
 
   .navbar {
     display: flex;
@@ -27,7 +27,7 @@ header {
 .home {
 
   .hero {
-
+    .bottom-dashed-border;
   }
 
   .content-section {
@@ -35,7 +35,9 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
+    &:last-child {
+      .bottom-dashed-border;
+    }
 
 
     .text-content {
