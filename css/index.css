@@ -174,17 +174,6 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-.footer {
-  width: 100%;
-  border-top: 2px dashed silver;
-  background: #FFEBCD;
-}
-.footer p {
-  text-align: center;
-  color: #212529;
-  font-size: 1.6rem;
-  padding: 20px;
-}
 header {
   padding: 20px 0;
   border-bottom: 2px dashed #C0C0C0;
@@ -206,6 +195,17 @@ header .navbar nav a {
   text-decoration: none;
   color: black;
   margin-right: 30px;
+}
+.footer {
+  width: 100%;
+  border-top: 2px dashed silver;
+  background: #FFEBCD;
+}
+.footer p {
+  text-align: center;
+  color: #212529;
+  font-size: 1.6rem;
+  padding: 20px;
 }
 .home .hero {
   border-bottom: 2px dashed #C0C0C0;
@@ -262,4 +262,14 @@ header .navbar nav a {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  width: 82%;
+  color: white;
+  background-color: #009999;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px black;
 }
