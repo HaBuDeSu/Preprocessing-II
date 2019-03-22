@@ -252,6 +252,7 @@ header .navbar nav a {
 @media (max-width: 500px) {
   .home .content-section .text-content {
     width: 100%;
+    padding: 0;
   }
 }
 .home .content-section .img-content {
@@ -261,10 +262,13 @@ header .navbar nav a {
 @media (max-width: 500px) {
   .home .content-section .img-content {
     width: 100%;
+    padding: 0;
   }
 }
 .home .content-section .img-content img {
   border-radius: 10px;
+  width: 100%;
+  height: auto;
 }
 .home .inverse-content {
   padding-bottom: 30px;
@@ -282,6 +286,12 @@ header .navbar nav a {
 .home .inverse-content .img-content {
   padding-right: 1%;
   padding-left: 0;
+}
+@media (max-width: 500px) {
+  .home .inverse-content .img-content {
+    width: 100%;
+    padding: 0;
+  }
 }
 .home .content-destination {
   width: 75%;
